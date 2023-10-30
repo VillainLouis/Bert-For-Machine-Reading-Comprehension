@@ -214,3 +214,226 @@
 2021-10-23 23:20:01,781 - /home/deepblue/xyf_work/Squad/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
 2021-10-23 23:20:01,781 - /home/deepblue/xyf_work/Squad/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
 2021-10-23 23:24:06,493 - /home/deepblue/xyf_work/Squad/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 244.711704 secs (0.020355 sec per example)
+2023-10-29 14:54:05,228 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:41] - INFO: Saving features into cached file /data/jliu/data/SQuAD/cache_train-v2.0.data
+2023-10-29 14:55:51,512 - run.py[line:48] - INFO: ***** Running training *****
+2023-10-29 14:55:51,512 - run.py[line:49] - INFO:   Num examples = 130571
+2023-10-29 14:55:51,512 - run.py[line:50] - INFO:   Num Epochs = 3
+2023-10-29 14:55:51,512 - run.py[line:51] - INFO:   Instantaneous batch size per GPU = 10
+2023-10-29 15:01:00,756 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:63] - INFO: Saving features into cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 15:01:13,902 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 15:01:13,902 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 15:01:13,902 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 15:03:20,875 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 126.973246 secs (0.010562 sec per example)
+2023-10-29 15:07:42,196 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:25] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_train-v2.0.data
+2023-10-29 15:08:21,693 - run.py[line:48] - INFO: ***** Running training *****
+2023-10-29 15:08:21,693 - run.py[line:49] - INFO:   Num examples = 130571
+2023-10-29 15:08:21,693 - run.py[line:50] - INFO:   Num Epochs = 3
+2023-10-29 15:08:21,693 - run.py[line:51] - INFO:   Instantaneous batch size per GPU = 10
+2023-10-29 15:11:55,071 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 15:11:59,519 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 15:11:59,521 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 15:11:59,523 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 15:14:08,390 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.865987 secs (0.010719 sec per example)
+2023-10-29 15:14:49,553 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:81] - INFO: Saving best model to model/checkpoints/best_model-1000.pkl
+2023-10-29 15:18:22,511 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 15:18:26,855 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 15:18:26,857 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 15:18:26,859 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 15:20:35,232 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.371701 secs (0.010678 sec per example)
+2023-10-29 15:21:16,872 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:81] - INFO: Saving best model to model/checkpoints/best_model-2000.pkl
+2023-10-29 15:24:49,911 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 15:24:54,228 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 15:24:54,230 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 15:24:54,232 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 15:27:03,058 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.825550 secs (0.010716 sec per example)
+2023-10-29 15:31:15,307 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 15:31:22,021 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 15:31:22,023 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 15:31:22,024 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 15:33:29,975 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 127.949691 secs (0.010643 sec per example)
+2023-10-29 15:34:11,810 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:81] - INFO: Saving best model to model/checkpoints/best_model-4000.pkl
+2023-10-29 15:37:44,810 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 15:37:49,167 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 15:37:49,168 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 15:37:49,170 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 15:39:58,000 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.828890 secs (0.010716 sec per example)
+2023-10-29 15:44:12,658 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 15:44:16,972 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 15:44:16,974 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 15:44:16,976 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 15:46:25,327 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.349763 secs (0.010676 sec per example)
+2023-10-29 15:47:07,067 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:81] - INFO: Saving best model to model/checkpoints/best_model-6000.pkl
+2023-10-29 15:50:40,102 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 15:50:44,535 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 15:50:44,537 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 15:50:44,539 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 15:52:53,302 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.762000 secs (0.010711 sec per example)
+2023-10-29 15:57:04,634 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 15:57:11,479 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 15:57:11,481 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 15:57:11,482 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 15:59:19,665 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.182125 secs (0.010662 sec per example)
+2023-10-29 16:03:31,761 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 16:03:38,508 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 16:03:38,510 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 16:03:38,512 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 16:05:46,876 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.363871 secs (0.010677 sec per example)
+2023-10-29 16:10:00,689 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 16:10:05,044 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 16:10:05,045 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 16:10:05,047 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 16:12:13,893 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.845333 secs (0.010717 sec per example)
+2023-10-29 16:12:55,277 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:93] - INFO: Saving model checkpoint to model/checkpoints/checkpoint-10000.pkl
+2023-10-29 16:16:28,404 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 16:16:32,744 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 16:16:32,746 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 16:16:32,748 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 16:18:41,557 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.808099 secs (0.010714 sec per example)
+2023-10-29 16:22:52,891 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 16:22:59,653 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 16:22:59,655 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 16:22:59,657 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 16:25:07,829 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.172077 secs (0.010661 sec per example)
+2023-10-29 16:29:21,593 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 16:29:25,948 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 16:29:25,950 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 16:29:25,951 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 16:31:35,064 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 129.112069 secs (0.010740 sec per example)
+2023-10-29 16:32:13,817 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:81] - INFO: Saving best model to model/checkpoints/best_model-13000.pkl
+2023-10-29 16:35:46,776 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 16:35:53,614 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 16:35:53,616 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 16:35:53,618 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 16:38:02,094 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.474668 secs (0.010687 sec per example)
+2023-10-29 16:38:41,211 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:81] - INFO: Saving best model to model/checkpoints/best_model-14000.pkl
+2023-10-29 16:42:14,193 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 16:42:21,005 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 16:42:21,007 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 16:42:21,009 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 16:44:29,389 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.379562 secs (0.010679 sec per example)
+2023-10-29 16:48:43,046 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 16:48:47,385 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 16:48:47,386 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 16:48:47,388 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 16:50:56,361 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.971570 secs (0.010728 sec per example)
+2023-10-29 16:51:34,909 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:81] - INFO: Saving best model to model/checkpoints/best_model-16000.pkl
+2023-10-29 16:55:07,768 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 16:55:14,547 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 16:55:14,549 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 16:55:14,550 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 16:57:22,943 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.391323 secs (0.010680 sec per example)
+2023-10-29 17:01:37,501 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 17:01:41,859 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 17:01:41,860 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 17:01:41,862 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 17:03:50,807 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.943775 secs (0.010726 sec per example)
+2023-10-29 17:08:01,845 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 17:08:08,625 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 17:08:08,627 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 17:08:08,629 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 17:10:16,544 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 127.914338 secs (0.010640 sec per example)
+2023-10-29 17:14:31,400 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 17:14:35,742 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 17:14:35,744 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 17:14:35,746 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 17:16:44,195 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.448536 secs (0.010684 sec per example)
+2023-10-29 17:17:25,444 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:81] - INFO: Saving best model to model/checkpoints/best_model-20000.pkl
+2023-10-29 17:17:25,900 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:93] - INFO: Saving model checkpoint to model/checkpoints/checkpoint-20000.pkl
+2023-10-29 17:20:58,964 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 17:21:03,320 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 17:21:03,322 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 17:21:03,324 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 17:23:12,227 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.901589 secs (0.010722 sec per example)
+2023-10-29 17:27:23,577 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 17:27:30,314 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 17:27:30,316 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 17:27:30,318 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 17:29:38,475 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.156925 secs (0.010660 sec per example)
+2023-10-29 17:33:52,112 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 17:33:56,476 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 17:33:56,478 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 17:33:56,480 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 17:36:05,300 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.819561 secs (0.010715 sec per example)
+2023-10-29 17:40:18,842 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 17:40:23,202 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 17:40:23,203 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 17:40:23,205 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 17:42:31,737 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.530462 secs (0.010691 sec per example)
+2023-10-29 17:46:45,544 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 17:46:49,895 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 17:46:49,897 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 17:46:49,899 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 17:48:58,364 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.464243 secs (0.010686 sec per example)
+2023-10-29 17:53:11,569 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 17:53:15,919 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 17:53:15,921 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 17:53:15,922 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 17:55:24,811 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.887281 secs (0.010721 sec per example)
+2023-10-29 17:59:37,894 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 17:59:42,221 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 17:59:42,223 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 17:59:42,225 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 18:01:50,693 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.467248 secs (0.010686 sec per example)
+2023-10-29 18:02:28,930 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:81] - INFO: Saving best model to model/checkpoints/best_model-27000.pkl
+2023-10-29 18:06:01,872 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 18:06:08,651 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 18:06:08,653 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 18:06:08,655 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 18:08:16,219 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 127.563352 secs (0.010611 sec per example)
+2023-10-29 18:12:29,575 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 18:12:33,911 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 18:12:33,913 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 18:12:33,915 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 18:14:42,118 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.202801 secs (0.010664 sec per example)
+2023-10-29 18:18:52,754 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 18:18:59,656 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 18:18:59,658 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 18:18:59,660 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 18:21:07,405 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 127.744372 secs (0.010626 sec per example)
+2023-10-29 18:21:45,174 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:93] - INFO: Saving model checkpoint to model/checkpoints/checkpoint-30000.pkl
+2023-10-29 18:25:18,206 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 18:25:24,937 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 18:25:24,939 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 18:25:24,941 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 18:27:32,384 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 127.442518 secs (0.010601 sec per example)
+2023-10-29 18:31:45,793 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 18:31:50,103 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 18:31:50,105 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 18:31:50,107 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 18:33:57,616 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 127.507733 secs (0.010606 sec per example)
+2023-10-29 18:34:35,703 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:81] - INFO: Saving best model to model/checkpoints/best_model-32000.pkl
+2023-10-29 18:38:08,684 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 18:38:15,382 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 18:38:15,384 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 18:38:15,386 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 18:40:22,421 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 127.034041 secs (0.010567 sec per example)
+2023-10-29 18:44:36,052 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 18:44:40,393 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 18:44:40,395 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 18:44:40,397 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 18:46:47,893 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 127.495108 secs (0.010605 sec per example)
+2023-10-29 18:50:58,742 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 18:51:05,396 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 18:51:05,398 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 18:51:05,400 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 18:53:12,266 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 126.865707 secs (0.010553 sec per example)
+2023-10-29 18:57:25,531 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 18:57:29,874 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 18:57:29,876 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 18:57:29,878 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 18:59:37,327 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 127.448051 secs (0.010601 sec per example)
+2023-10-29 19:03:50,147 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 19:03:54,472 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 19:03:54,474 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 19:03:54,476 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 19:06:02,489 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 128.011846 secs (0.010648 sec per example)
+2023-10-29 19:10:15,784 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 19:10:20,087 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 19:10:20,089 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 19:10:20,091 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 19:12:27,037 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 126.945436 secs (0.010559 sec per example)
+2023-10-29 19:16:40,192 - /data/jliu/Test/BertForMRC/data/process/dataset.py[line:46] - INFO: Loading features from cached file /data/jliu/data/SQuAD/cache_dev-v2.0.data
+2023-10-29 19:16:44,599 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:124] - INFO: ***** Running evaluation  *****
+2023-10-29 19:16:44,601 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:125] - INFO:   Num examples = 12022
+2023-10-29 19:16:44,603 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:126] - INFO:   Batch size = 10
+2023-10-29 19:18:52,144 - /data/jliu/Test/BertForMRC/train_eval/train_eval.py[line:160] - INFO:   Evaluation done in total 127.540773 secs (0.010609 sec per example)

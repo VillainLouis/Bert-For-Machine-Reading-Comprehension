@@ -11,7 +11,7 @@ from train_eval.train_eval import train
 from data.process.dataset import Dataset
 logger = log.logger
 
-from transformers import BertTokenizer
+from transformers import BertTokenizer, AutoTokenizer
 
 
 
@@ -27,9 +27,15 @@ def set_seed(seed):
 
 if __name__ == '__main__':
     config = Config()
+    
+    config.model_dir = "/data/jliu/models"
+    config.train_path = "/data/jliu/data/SQuAD"
+    config.dev_path = "/data/jliu/data/SQuAD"
+    
+    
     set_seed(config.seed)
     tokenizer = BertTokenizer.from_pretrained(os.path.join(config.model_dir,config.model_name))
-
+    
     train_Dataset = Dataset(tokenizer=tokenizer,data_dir=config.train_path,filename=config.train_file,is_training=True,config=config,cached_features_file=os.path.join(config.train_path,"cache_" + config.train_file.replace("json","data")))
     train_features,train_dataset = train_Dataset.features,train_Dataset.dataset
 
